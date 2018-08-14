@@ -8,6 +8,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 
 module.exports = {
     entry: "./src/main.js",
+    devtool: "eval-source-map",
     module: {
         rules: [
             {
